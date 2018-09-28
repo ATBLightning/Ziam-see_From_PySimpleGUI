@@ -9,6 +9,8 @@ KING MONGKUT'S UNIVERSITY OF TECHNOLOGY NORTH BANGKOK (KMUTNB)
 
 for more information >> Blog : http://myblogmysoftware.blogspot.com/
 
+Example Video : https://www.youtube.com/watch?v=xKbkp6CtDv4&feature=youtu.be
+
 ##############################
 
 Thanks to this website for the basic PySimpleGUI coding : https://pysimplegui.readthedocs.io/en/latest/cookbook/
