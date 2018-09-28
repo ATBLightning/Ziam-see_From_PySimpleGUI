@@ -6,17 +6,17 @@ import PySimpleGUI as sg
 import random
 
 IO = []
-def UI():
+def UI():              #create list of number 1-28
     for i in range(28,0,-1):
         IO.append(str(i))
 
-def Shuffle_Ran():
+def Shuffle_Ran():     #shuffle the list of number
     UI()
     random.shuffle(IO)
 
 UI()
 
-def gui1():
+def gui1():            #layout
     global gui_rows, window
     gui_rows = [[sg.RealtimeButton(IO.pop()),sg.RealtimeButton(IO.pop()),sg.RealtimeButton(IO.pop()),sg.RealtimeButton(IO.pop())],
                 [sg.RealtimeButton(IO.pop()),sg.RealtimeButton(IO.pop()),sg.RealtimeButton(IO.pop()),sg.RealtimeButton(IO.pop())],
@@ -33,7 +33,7 @@ def gui1():
 
 gui1()
 
-def loop1():
+def loop1():             #loop
     while (True):
         button, values = window.ReadNonBlocking()
         if button is None:
