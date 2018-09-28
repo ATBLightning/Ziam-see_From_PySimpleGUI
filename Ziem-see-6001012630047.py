@@ -28,7 +28,7 @@ def gui1():            #layout
                 [sg.T(' ' * 10), sg.SimpleButton('Random', size = (13,1), button_color=('black','orange'))]
                 ]
 
-    window = sg.FlexForm('Siam', auto_size_text=True,default_button_element_size=(5, 2),auto_size_buttons=False)
+    window = sg.FlexForm('Siem-See', auto_size_text=True,default_button_element_size=(5, 2),auto_size_buttons=False)
     window.Layout(gui_rows)
 
 gui1()
